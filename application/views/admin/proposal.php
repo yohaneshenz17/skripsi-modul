@@ -254,7 +254,9 @@
                     {
                         data: null,
                         render: function(data) {
-                            return '1. ' + data.pembimbing.nama + ' <br>2. ' + data.pembimbing2.nama
+                            var p1 = (data.pembimbing && data.pembimbing.nama) ? data.pembimbing.nama : 'Belum Ditentukan';
+                            var p2 = (data.pembimbing2 && data.pembimbing2.nama) ? data.pembimbing2.nama : 'Belum Ditentukan';
+                            return '1. ' + p1 + ' <br>2. ' + p2;
                         }
                     },
                     {

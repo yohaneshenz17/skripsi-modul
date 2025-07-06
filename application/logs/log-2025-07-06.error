@@ -1,0 +1,225 @@
+ERROR - 2025-07-06 07:57:29 --> 404 Page Not Found: Assets/essence
+ERROR - 2025-07-06 07:57:29 --> 404 Page Not Found: Assets/essence
+ERROR - 2025-07-06 07:57:29 --> 404 Page Not Found: Assets/essence
+ERROR - 2025-07-06 08:51:50 --> Severity: Warning --> Undefined array key "seminar_proposal" /home/stkp7133/public_html/skripsi/application/models/Mahasiswa_model.php 32
+ERROR - 2025-07-06 08:51:50 --> Severity: Warning --> Undefined array key "hasil_penelitian" /home/stkp7133/public_html/skripsi/application/models/Mahasiswa_model.php 33
+ERROR - 2025-07-06 08:51:57 --> Severity: Warning --> Undefined array key "seminar_proposal" /home/stkp7133/public_html/skripsi/application/models/Mahasiswa_model.php 32
+ERROR - 2025-07-06 08:51:57 --> Severity: Warning --> Undefined array key "hasil_penelitian" /home/stkp7133/public_html/skripsi/application/models/Mahasiswa_model.php 33
+ERROR - 2025-07-06 10:44:51 --> Severity: Warning --> Undefined array key "seminar_proposal" /home/stkp7133/public_html/skripsi/application/models/Mahasiswa_model.php 32
+ERROR - 2025-07-06 10:44:51 --> Severity: Warning --> Undefined array key "hasil_penelitian" /home/stkp7133/public_html/skripsi/application/models/Mahasiswa_model.php 33
+ERROR - 2025-07-06 10:44:53 --> Severity: Warning --> Undefined array key "seminar_proposal" /home/stkp7133/public_html/skripsi/application/models/Mahasiswa_model.php 32
+ERROR - 2025-07-06 10:44:53 --> Severity: Warning --> Undefined array key "hasil_penelitian" /home/stkp7133/public_html/skripsi/application/models/Mahasiswa_model.php 33
+ERROR - 2025-07-06 10:46:36 --> Severity: Warning --> Undefined array key "seminar_proposal" /home/stkp7133/public_html/skripsi/application/models/Mahasiswa_model.php 32
+ERROR - 2025-07-06 10:46:36 --> Severity: Warning --> Undefined array key "hasil_penelitian" /home/stkp7133/public_html/skripsi/application/models/Mahasiswa_model.php 33
+ERROR - 2025-07-06 10:54:10 --> Severity: error --> Exception: CI_Email::initialize(): Argument #1 ($config) must be of type array, null given, called in /home/stkp7133/public_html/skripsi/application/models/Email_model.php on line 23 /home/stkp7133/public_html/skripsi/system/libraries/Email.php 413
+ERROR - 2025-07-06 11:00:20 --> Severity: error --> Exception: CI_Email::initialize(): Argument #1 ($config) must be of type array, null given, called in /home/stkp7133/public_html/skripsi/application/models/Email_model.php on line 23 /home/stkp7133/public_html/skripsi/system/libraries/Email.php 413
+ERROR - 2025-07-06 11:00:33 --> Severity: error --> Exception: CI_Email::initialize(): Argument #1 ($config) must be of type array, null given, called in /home/stkp7133/public_html/skripsi/application/models/Email_model.php on line 23 /home/stkp7133/public_html/skripsi/system/libraries/Email.php 413
+ERROR - 2025-07-06 11:03:45 --> Severity: error --> Exception: CI_Email::initialize(): Argument #1 ($config) must be of type array, null given, called in /home/stkp7133/public_html/skripsi/application/models/Email_model.php on line 23 /home/stkp7133/public_html/skripsi/system/libraries/Email.php 413
+ERROR - 2025-07-06 11:04:42 --> Severity: error --> Exception: CI_Email::initialize(): Argument #1 ($config) must be of type array, null given, called in /home/stkp7133/public_html/skripsi/application/models/Email_model.php on line 23 /home/stkp7133/public_html/skripsi/system/libraries/Email.php 413
+ERROR - 2025-07-06 11:08:46 --> Severity: error --> Exception: CI_Email::initialize(): Argument #1 ($config) must be of type array, null given, called in /home/stkp7133/public_html/skripsi/application/models/Email_model.php on line 23 /home/stkp7133/public_html/skripsi/system/libraries/Email.php 413
+ERROR - 2025-07-06 11:45:58 --> Severity: Warning --> Undefined array key "seminar_proposal" /home/stkp7133/public_html/skripsi/application/models/Mahasiswa_model.php 32
+ERROR - 2025-07-06 11:45:58 --> Severity: Warning --> Undefined array key "hasil_penelitian" /home/stkp7133/public_html/skripsi/application/models/Mahasiswa_model.php 33
+ERROR - 2025-07-06 11:45:58 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 11:46:01 --> Severity: Warning --> Undefined array key "seminar_proposal" /home/stkp7133/public_html/skripsi/application/models/Mahasiswa_model.php 32
+ERROR - 2025-07-06 11:46:01 --> Severity: Warning --> Undefined array key "hasil_penelitian" /home/stkp7133/public_html/skripsi/application/models/Mahasiswa_model.php 33
+ERROR - 2025-07-06 11:46:01 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 11:46:09 --> Severity: Warning --> Undefined array key "seminar_proposal" /home/stkp7133/public_html/skripsi/application/models/Mahasiswa_model.php 32
+ERROR - 2025-07-06 11:46:09 --> Severity: Warning --> Undefined array key "hasil_penelitian" /home/stkp7133/public_html/skripsi/application/models/Mahasiswa_model.php 33
+ERROR - 2025-07-06 11:46:09 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 11:46:19 --> Severity: Warning --> Undefined array key "seminar_proposal" /home/stkp7133/public_html/skripsi/application/models/Mahasiswa_model.php 32
+ERROR - 2025-07-06 11:46:19 --> Severity: Warning --> Undefined array key "hasil_penelitian" /home/stkp7133/public_html/skripsi/application/models/Mahasiswa_model.php 33
+ERROR - 2025-07-06 11:46:19 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 11:50:03 --> Severity: Warning --> Undefined array key "seminar_proposal" /home/stkp7133/public_html/skripsi/application/models/Mahasiswa_model.php 32
+ERROR - 2025-07-06 11:50:03 --> Severity: Warning --> Undefined array key "hasil_penelitian" /home/stkp7133/public_html/skripsi/application/models/Mahasiswa_model.php 33
+ERROR - 2025-07-06 11:50:03 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 11:51:21 --> 404 Page Not Found: Cdn/vendor
+ERROR - 2025-07-06 11:51:21 --> 404 Page Not Found: Cdn/vendor
+ERROR - 2025-07-06 11:51:45 --> Severity: Warning --> Undefined array key "seminar_proposal" /home/stkp7133/public_html/skripsi/application/models/Mahasiswa_model.php 32
+ERROR - 2025-07-06 11:51:45 --> Severity: Warning --> Undefined array key "hasil_penelitian" /home/stkp7133/public_html/skripsi/application/models/Mahasiswa_model.php 33
+ERROR - 2025-07-06 11:51:45 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 11:58:21 --> 404 Page Not Found: Cdn/vendor
+ERROR - 2025-07-06 11:58:21 --> 404 Page Not Found: Cdn/vendor
+ERROR - 2025-07-06 11:59:33 --> Severity: Warning --> Undefined array key "dosen_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 17
+ERROR - 2025-07-06 11:59:33 --> Severity: Warning --> Undefined array key "status" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 21
+ERROR - 2025-07-06 11:59:33 --> Severity: Warning --> Undefined array key "mahasiswa_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 25
+ERROR - 2025-07-06 11:59:33 --> Query error: View 'stkp7133_skripsi.mahasiswa_v' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them - Invalid query: SELECT *
+FROM `mahasiswa_v`
+WHERE `mahasiswa_v`.`id` = '18'
+ERROR - 2025-07-06 11:59:33 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 11:59:44 --> Severity: Warning --> Undefined array key "dosen_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 17
+ERROR - 2025-07-06 11:59:44 --> Severity: Warning --> Undefined array key "status" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 21
+ERROR - 2025-07-06 11:59:44 --> Severity: Warning --> Undefined array key "mahasiswa_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 25
+ERROR - 2025-07-06 11:59:44 --> Query error: View 'stkp7133_skripsi.mahasiswa_v' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them - Invalid query: SELECT *
+FROM `mahasiswa_v`
+WHERE `mahasiswa_v`.`id` = '18'
+ERROR - 2025-07-06 11:59:44 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 11:59:47 --> Severity: Warning --> Undefined array key "mahasiswa_id" /home/stkp7133/public_html/skripsi/application/models/Penelitian_model.php 29
+ERROR - 2025-07-06 11:59:47 --> Query error: View 'stkp7133_skripsi.proposal_mahasiswa_v' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them - Invalid query: SELECT `penelitian`.`id`, `penelitian`.`proposal_mahasiswa_id`, `penelitian`.`judul_penelitian`, `penelitian`.`bukti`, `penelitian`.`file_seminar`, `penelitian`.`sk_tim`, `penelitian`.`bukti_konsultasi`, `proposal_mahasiswa_v`.`judul` as `proposal_mahasiswa_judul`, `proposal_mahasiswa_v`.`nim`, `proposal_mahasiswa_v`.`nama_mahasiswa`, `proposal_mahasiswa_v`.`nama_prodi`
+FROM `penelitian`
+LEFT JOIN `proposal_mahasiswa_v` ON `proposal_mahasiswa_v`.`id` = `penelitian`.`proposal_mahasiswa_id`
+ERROR - 2025-07-06 11:59:47 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 11:59:51 --> Query error: View 'stkp7133_skripsi.skripsi_vl' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them - Invalid query: SELECT *
+FROM `skripsi_vl`
+ERROR - 2025-07-06 11:59:54 --> Severity: Warning --> Undefined array key "dosen_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 17
+ERROR - 2025-07-06 11:59:54 --> Severity: Warning --> Undefined array key "status" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 21
+ERROR - 2025-07-06 11:59:54 --> Severity: Warning --> Undefined array key "mahasiswa_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 25
+ERROR - 2025-07-06 11:59:54 --> Query error: View 'stkp7133_skripsi.mahasiswa_v' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them - Invalid query: SELECT *
+FROM `mahasiswa_v`
+WHERE `mahasiswa_v`.`id` = '18'
+ERROR - 2025-07-06 11:59:54 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 11:59:54 --> Severity: 8192 --> Required parameter $data follows optional parameter $id /home/stkp7133/public_html/skripsi/application/models/Hasil_kegiatan_model.php 59
+ERROR - 2025-07-06 11:59:54 --> Severity: Warning --> Undefined array key "mahasiswa_id" /home/stkp7133/public_html/skripsi/application/models/Hasil_kegiatan_model.php 11
+ERROR - 2025-07-06 11:59:54 --> Query error: View 'stkp7133_skripsi.hasil_kegiatan_v' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them - Invalid query: SELECT *
+FROM `hasil_kegiatan_v`
+ERROR - 2025-07-06 11:59:54 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 11:59:59 --> Severity: Warning --> Undefined array key "dosen_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 17
+ERROR - 2025-07-06 11:59:59 --> Severity: Warning --> Undefined array key "status" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 21
+ERROR - 2025-07-06 11:59:59 --> Severity: Warning --> Undefined array key "mahasiswa_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 25
+ERROR - 2025-07-06 11:59:59 --> Query error: View 'stkp7133_skripsi.mahasiswa_v' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them - Invalid query: SELECT *
+FROM `mahasiswa_v`
+WHERE `mahasiswa_v`.`id` = '18'
+ERROR - 2025-07-06 11:59:59 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 12:00:10 --> Severity: Warning --> Undefined array key "dosen_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 17
+ERROR - 2025-07-06 12:00:10 --> Severity: Warning --> Undefined array key "status" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 21
+ERROR - 2025-07-06 12:00:10 --> Severity: Warning --> Undefined array key "mahasiswa_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 25
+ERROR - 2025-07-06 12:00:10 --> Query error: View 'stkp7133_skripsi.mahasiswa_v' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them - Invalid query: SELECT *
+FROM `mahasiswa_v`
+WHERE `mahasiswa_v`.`id` = '18'
+ERROR - 2025-07-06 12:00:10 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 12:00:53 --> 404 Page Not Found: Cdn/vendor
+ERROR - 2025-07-06 12:00:53 --> 404 Page Not Found: Cdn/vendor
+ERROR - 2025-07-06 12:01:00 --> Severity: Warning --> Undefined array key "dosen_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 17
+ERROR - 2025-07-06 12:01:00 --> Severity: Warning --> Undefined array key "status" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 21
+ERROR - 2025-07-06 12:01:00 --> Severity: Warning --> Undefined array key "mahasiswa_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 25
+ERROR - 2025-07-06 12:01:00 --> Query error: View 'stkp7133_skripsi.mahasiswa_v' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them - Invalid query: SELECT *
+FROM `mahasiswa_v`
+WHERE `mahasiswa_v`.`id` = '18'
+ERROR - 2025-07-06 12:01:00 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 12:05:22 --> 404 Page Not Found: Cdn/vendor
+ERROR - 2025-07-06 12:05:22 --> 404 Page Not Found: Cdn/vendor
+ERROR - 2025-07-06 12:05:23 --> Severity: Warning --> Undefined array key "dosen_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 17
+ERROR - 2025-07-06 12:05:23 --> Severity: Warning --> Undefined array key "status" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 21
+ERROR - 2025-07-06 12:05:23 --> Severity: Warning --> Undefined array key "mahasiswa_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 25
+ERROR - 2025-07-06 12:05:23 --> Query error: View 'stkp7133_skripsi.mahasiswa_v' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them - Invalid query: SELECT *
+FROM `mahasiswa_v`
+WHERE `mahasiswa_v`.`id` = '18'
+ERROR - 2025-07-06 12:05:23 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 12:05:29 --> Severity: Warning --> Undefined array key "dosen_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 17
+ERROR - 2025-07-06 12:05:29 --> Severity: Warning --> Undefined array key "status" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 21
+ERROR - 2025-07-06 12:05:29 --> Severity: Warning --> Undefined array key "mahasiswa_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 25
+ERROR - 2025-07-06 12:05:29 --> Query error: View 'stkp7133_skripsi.mahasiswa_v' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them - Invalid query: SELECT *
+FROM `mahasiswa_v`
+WHERE `mahasiswa_v`.`id` = '18'
+ERROR - 2025-07-06 12:05:29 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 12:06:21 --> Severity: Warning --> Undefined array key "mahasiswa_id" /home/stkp7133/public_html/skripsi/application/models/Konsultasi_model.php 41
+ERROR - 2025-07-06 12:06:21 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 12:06:21 --> Severity: Warning --> Undefined array key "mahasiswa_id" /home/stkp7133/public_html/skripsi/application/models/Seminar_model.php 32
+ERROR - 2025-07-06 12:06:21 --> Query error: View 'stkp7133_skripsi.proposal_mahasiswa_v' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them - Invalid query: SELECT `seminar`.`id`, `seminar`.`proposal_mahasiswa_id`, `seminar`.`tanggal`, `seminar`.`jam`, `seminar`.`tempat`, `seminar`.`file_proposal`, `seminar`.`bukti_konsultasi`, `seminar`.`persetujuan`, `seminar`.`sk_tim`, `proposal_mahasiswa_v`.`judul` as `proposal_mahasiswa_judul`, `proposal_mahasiswa_v`.`nama_mahasiswa`, `proposal_mahasiswa_v`.`nim`, `proposal_mahasiswa_v`.`nama_prodi`, `hasil_seminar`.`status` as `hasil_seminar_status`
+FROM `seminar`
+LEFT JOIN `hasil_seminar` ON `hasil_seminar`.`seminar_id` = `seminar`.`id`
+LEFT JOIN `proposal_mahasiswa_v` ON `proposal_mahasiswa_v`.`id` = `seminar`.`proposal_mahasiswa_id`
+ERROR - 2025-07-06 12:06:21 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 12:06:24 --> Severity: Warning --> Undefined array key "dosen_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 17
+ERROR - 2025-07-06 12:06:24 --> Severity: Warning --> Undefined array key "status" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 21
+ERROR - 2025-07-06 12:06:24 --> Severity: Warning --> Undefined array key "mahasiswa_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 25
+ERROR - 2025-07-06 12:06:24 --> Query error: View 'stkp7133_skripsi.mahasiswa_v' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them - Invalid query: SELECT *
+FROM `mahasiswa_v`
+WHERE `mahasiswa_v`.`id` = '18'
+ERROR - 2025-07-06 12:06:24 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 12:10:02 --> Severity: Warning --> Undefined array key "dosen_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 17
+ERROR - 2025-07-06 12:10:02 --> Severity: Warning --> Undefined array key "status" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 21
+ERROR - 2025-07-06 12:10:02 --> Severity: Warning --> Undefined array key "mahasiswa_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 25
+ERROR - 2025-07-06 12:10:02 --> Query error: View 'stkp7133_skripsi.mahasiswa_v' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them - Invalid query: SELECT *
+FROM `mahasiswa_v`
+WHERE `mahasiswa_v`.`id` = '18'
+ERROR - 2025-07-06 12:10:02 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 12:10:07 --> Severity: Warning --> Undefined array key "mahasiswa_id" /home/stkp7133/public_html/skripsi/application/models/Konsultasi_model.php 41
+ERROR - 2025-07-06 12:10:07 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 12:10:07 --> Severity: Warning --> Undefined array key "mahasiswa_id" /home/stkp7133/public_html/skripsi/application/models/Seminar_model.php 32
+ERROR - 2025-07-06 12:10:07 --> Query error: View 'stkp7133_skripsi.proposal_mahasiswa_v' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them - Invalid query: SELECT `seminar`.`id`, `seminar`.`proposal_mahasiswa_id`, `seminar`.`tanggal`, `seminar`.`jam`, `seminar`.`tempat`, `seminar`.`file_proposal`, `seminar`.`bukti_konsultasi`, `seminar`.`persetujuan`, `seminar`.`sk_tim`, `proposal_mahasiswa_v`.`judul` as `proposal_mahasiswa_judul`, `proposal_mahasiswa_v`.`nama_mahasiswa`, `proposal_mahasiswa_v`.`nim`, `proposal_mahasiswa_v`.`nama_prodi`, `hasil_seminar`.`status` as `hasil_seminar_status`
+FROM `seminar`
+LEFT JOIN `hasil_seminar` ON `hasil_seminar`.`seminar_id` = `seminar`.`id`
+LEFT JOIN `proposal_mahasiswa_v` ON `proposal_mahasiswa_v`.`id` = `seminar`.`proposal_mahasiswa_id`
+ERROR - 2025-07-06 12:10:07 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 12:10:10 --> Severity: Warning --> Undefined array key "dosen_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 17
+ERROR - 2025-07-06 12:10:10 --> Severity: Warning --> Undefined array key "status" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 21
+ERROR - 2025-07-06 12:10:10 --> Severity: Warning --> Undefined array key "mahasiswa_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 25
+ERROR - 2025-07-06 12:10:10 --> Query error: View 'stkp7133_skripsi.mahasiswa_v' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them - Invalid query: SELECT *
+FROM `mahasiswa_v`
+WHERE `mahasiswa_v`.`id` = '18'
+ERROR - 2025-07-06 12:10:10 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 12:12:53 --> Severity: Warning --> Undefined array key "dosen_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 17
+ERROR - 2025-07-06 12:12:53 --> Severity: Warning --> Undefined array key "status" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 21
+ERROR - 2025-07-06 12:12:53 --> Severity: Warning --> Undefined array key "mahasiswa_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 25
+ERROR - 2025-07-06 12:12:53 --> Query error: View 'stkp7133_skripsi.mahasiswa_v' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them - Invalid query: SELECT *
+FROM `mahasiswa_v`
+WHERE `mahasiswa_v`.`id` = '18'
+ERROR - 2025-07-06 12:12:53 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 12:13:01 --> 404 Page Not Found: Cdn/vendor
+ERROR - 2025-07-06 12:13:01 --> 404 Page Not Found: Cdn/vendor
+ERROR - 2025-07-06 12:13:03 --> Severity: Warning --> Undefined array key "dosen_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 17
+ERROR - 2025-07-06 12:13:03 --> Severity: Warning --> Undefined array key "status" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 21
+ERROR - 2025-07-06 12:13:03 --> Severity: Warning --> Undefined array key "mahasiswa_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 25
+ERROR - 2025-07-06 12:13:03 --> Query error: View 'stkp7133_skripsi.mahasiswa_v' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them - Invalid query: SELECT *
+FROM `mahasiswa_v`
+WHERE `mahasiswa_v`.`id` = '18'
+ERROR - 2025-07-06 12:13:03 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 12:13:09 --> Severity: Warning --> Undefined array key "dosen_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 17
+ERROR - 2025-07-06 12:13:09 --> Severity: Warning --> Undefined array key "status" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 21
+ERROR - 2025-07-06 12:13:09 --> Severity: Warning --> Undefined array key "mahasiswa_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 25
+ERROR - 2025-07-06 12:13:09 --> Query error: View 'stkp7133_skripsi.mahasiswa_v' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them - Invalid query: SELECT *
+FROM `mahasiswa_v`
+WHERE `mahasiswa_v`.`id` = '18'
+ERROR - 2025-07-06 12:13:09 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 12:16:33 --> Severity: Warning --> Undefined array key "dosen_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 17
+ERROR - 2025-07-06 12:16:33 --> Severity: Warning --> Undefined array key "status" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 21
+ERROR - 2025-07-06 12:16:33 --> Severity: Warning --> Undefined array key "mahasiswa_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 25
+ERROR - 2025-07-06 12:16:33 --> Query error: View 'stkp7133_skripsi.mahasiswa_v' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them - Invalid query: SELECT *
+FROM `mahasiswa_v`
+WHERE `mahasiswa_v`.`id` = '18'
+ERROR - 2025-07-06 12:16:33 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 12:16:40 --> Severity: Warning --> Undefined array key "dosen_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 17
+ERROR - 2025-07-06 12:16:40 --> Severity: Warning --> Undefined array key "status" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 21
+ERROR - 2025-07-06 12:16:40 --> Severity: Warning --> Undefined array key "mahasiswa_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 25
+ERROR - 2025-07-06 12:16:40 --> Query error: View 'stkp7133_skripsi.mahasiswa_v' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them - Invalid query: SELECT *
+FROM `mahasiswa_v`
+WHERE `mahasiswa_v`.`id` = '18'
+ERROR - 2025-07-06 12:16:40 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 12:16:46 --> Severity: Warning --> Undefined array key "mahasiswa_id" /home/stkp7133/public_html/skripsi/application/models/Konsultasi_model.php 41
+ERROR - 2025-07-06 12:16:46 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 12:16:46 --> Severity: Warning --> Undefined array key "mahasiswa_id" /home/stkp7133/public_html/skripsi/application/models/Seminar_model.php 32
+ERROR - 2025-07-06 12:16:46 --> Query error: View 'stkp7133_skripsi.proposal_mahasiswa_v' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them - Invalid query: SELECT `seminar`.`id`, `seminar`.`proposal_mahasiswa_id`, `seminar`.`tanggal`, `seminar`.`jam`, `seminar`.`tempat`, `seminar`.`file_proposal`, `seminar`.`bukti_konsultasi`, `seminar`.`persetujuan`, `seminar`.`sk_tim`, `proposal_mahasiswa_v`.`judul` as `proposal_mahasiswa_judul`, `proposal_mahasiswa_v`.`nama_mahasiswa`, `proposal_mahasiswa_v`.`nim`, `proposal_mahasiswa_v`.`nama_prodi`, `hasil_seminar`.`status` as `hasil_seminar_status`
+FROM `seminar`
+LEFT JOIN `hasil_seminar` ON `hasil_seminar`.`seminar_id` = `seminar`.`id`
+LEFT JOIN `proposal_mahasiswa_v` ON `proposal_mahasiswa_v`.`id` = `seminar`.`proposal_mahasiswa_id`
+ERROR - 2025-07-06 12:16:46 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 12:21:49 --> Severity: Warning --> Undefined array key "dosen_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 17
+ERROR - 2025-07-06 12:21:49 --> Severity: Warning --> Undefined array key "status" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 21
+ERROR - 2025-07-06 12:21:49 --> Severity: Warning --> Undefined array key "mahasiswa_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 25
+ERROR - 2025-07-06 12:21:49 --> Query error: View 'stkp7133_skripsi.mahasiswa_v' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them - Invalid query: SELECT *
+FROM `mahasiswa_v`
+WHERE `mahasiswa_v`.`id` = '18'
+ERROR - 2025-07-06 12:21:49 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 12:33:03 --> Severity: error --> Exception: syntax error, unexpected token "return", expecting "function" or "const" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 61
+ERROR - 2025-07-06 12:33:07 --> Severity: error --> Exception: syntax error, unexpected token "return", expecting "function" or "const" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 61
+ERROR - 2025-07-06 12:35:08 --> Severity: error --> Exception: syntax error, unexpected token "return", expecting "function" or "const" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 61
+ERROR - 2025-07-06 12:40:25 --> Severity: Warning --> Undefined array key "dosen_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 17
+ERROR - 2025-07-06 12:40:25 --> Severity: Warning --> Undefined array key "status" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 21
+ERROR - 2025-07-06 12:40:25 --> Severity: Warning --> Undefined array key "mahasiswa_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 25
+ERROR - 2025-07-06 12:40:25 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 12:40:37 --> Severity: Warning --> Undefined array key "dosen_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 17
+ERROR - 2025-07-06 12:40:37 --> Severity: Warning --> Undefined array key "status" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 21
+ERROR - 2025-07-06 12:40:37 --> Severity: Warning --> Undefined array key "mahasiswa_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 25
+ERROR - 2025-07-06 12:40:37 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 12:40:42 --> Severity: Warning --> Undefined array key "dosen_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 17
+ERROR - 2025-07-06 12:40:42 --> Severity: Warning --> Undefined array key "status" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 21
+ERROR - 2025-07-06 12:40:42 --> Severity: Warning --> Undefined array key "mahasiswa_id" /home/stkp7133/public_html/skripsi/application/models/Proposal_mahasiswa_model.php 25
+ERROR - 2025-07-06 12:40:42 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 12:44:23 --> Severity: Warning --> Undefined array key "mahasiswa_id" /home/stkp7133/public_html/skripsi/application/models/Konsultasi_model.php 41
+ERROR - 2025-07-06 12:44:23 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578
+ERROR - 2025-07-06 12:44:23 --> Severity: Warning --> Undefined array key "mahasiswa_id" /home/stkp7133/public_html/skripsi/application/models/Seminar_model.php 32
+ERROR - 2025-07-06 12:44:23 --> Query error: View 'stkp7133_skripsi.proposal_mahasiswa_v' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them - Invalid query: SELECT `seminar`.`id`, `seminar`.`proposal_mahasiswa_id`, `seminar`.`tanggal`, `seminar`.`jam`, `seminar`.`tempat`, `seminar`.`file_proposal`, `seminar`.`bukti_konsultasi`, `seminar`.`persetujuan`, `seminar`.`sk_tim`, `proposal_mahasiswa_v`.`judul` as `proposal_mahasiswa_judul`, `proposal_mahasiswa_v`.`nama_mahasiswa`, `proposal_mahasiswa_v`.`nim`, `proposal_mahasiswa_v`.`nama_prodi`, `hasil_seminar`.`status` as `hasil_seminar_status`
+FROM `seminar`
+LEFT JOIN `hasil_seminar` ON `hasil_seminar`.`seminar_id` = `seminar`.`id`
+LEFT JOIN `proposal_mahasiswa_v` ON `proposal_mahasiswa_v`.`id` = `seminar`.`proposal_mahasiswa_id`
+ERROR - 2025-07-06 12:44:23 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/stkp7133/public_html/skripsi/system/core/Exceptions.php:271) /home/stkp7133/public_html/skripsi/system/core/Common.php 578

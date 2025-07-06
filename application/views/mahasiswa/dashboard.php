@@ -57,7 +57,7 @@ foreach ($dataUser as $du) {
     <div class="card-body">
         <div class="row">
             <div class="col-md-3 mb-3">
-                <img src="<?= base_url() ?>cdn/img/mahasiswa/default.png" class="foto card-img">
+                <img src="<?= base_url() ?>cdn/img/mahasiswa/default.png" class="foto foto-profil">
             </div>
             <div class="col-md-9">
                 <div class="row p-2">

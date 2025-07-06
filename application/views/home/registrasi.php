@@ -5,7 +5,7 @@
 <?php $this->app->section() ?>
 <div class="card">
     <div class="card-header">
-        <div class="card-title">Registrasi Mahasiswa</div>
+        <div class="card-title">Registrasi Akun Mahasiswa</div>
     </div>
     <div class="card-body">
         <span class="text-danger">*</span> Harus Diisi
@@ -13,15 +13,15 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label>NIM <span class="text-danger">*</span></label>
-                        <input id="nim" type="text" name="nim" autocomplete="off" autofocus="true" class="form-control" placeholder="Masukkan NIM ( Kombinasi angka dan huruf 9 digit )" maxlength="9">
+                        <label>Nomor Induk Mahasiswa (NIM) <span class="text-danger">*</span></label>
+                        <input id="nim" type="text" name="nim" autocomplete="off" autofocus="true" class="form-control" placeholder="Masukkan NIM Sesuai SIAKAD" maxlength="10">
                     </div>
                     <div class="form-group">
-                        <label>Nama <span class="text-danger">*</span></label>
-                        <input type="text" name="nama" autocomplete="off" class="form-control" placeholder="Masukkan Nama">
+                        <label>Nama Lengkap <span class="text-danger">*</span></label>
+                        <input type="text" name="nama" autocomplete="off" class="form-control" placeholder="Masukkan Nama Lengkap Sesuai SIAKAD">
                     </div>
                     <div class="form-group">
-                        <label>Prodi <span class="text-danger">*</span></label>
+                        <label>Program Studi <span class="text-danger">*</span></label>
                         <select name="prodi_id" class="form-control">
                             <option value="">- Pilih Prodi -</option>
                         </select>
@@ -36,52 +36,44 @@
                     </div>
                     <div class="form-group">
                         <label>Tempat Lahir <span class="text-danger">*</span></label>
-                        <input type="text" name="tempat_lahir" autocomplete="off" class="form-control" placeholder="Masukkan Tempat Lahir">
+                        <input type="text" name="tempat_lahir" autocomplete="off" class="form-control" placeholder="Masukkan Tempat Lahir sesuai SIAKAD">
                     </div>
                     <div class="form-group">
                         <label>Tanggal Lahir <span class="text-danger">*</span></label>
-                        <input type="date" name="tanggal_lahir" class="form-control">
+                        <input type="text" name="tanggal_lahir" id="tanggal_lahir" class="form-control" placeholder="dd/mm/yyyy" autocomplete="off">
                     </div>
                     <div class="form-group">
                         <label>Email <span class="text-danger">*</span></label>
-                        <input type="text" name="email" autocomplete="off" class="form-control" placeholder="Masukkan Email">
+                        <input type="text" name="email" autocomplete="off" class="form-control" placeholder="Masukkan Email Aktif">
                     </div>
                     <div class="form-group">
-                        <label>Alamat <span class="text-danger">*</span></label>
-                        <textarea name="alamat" placeholder="Masukkan Alamat" rows="5" class="form-control"></textarea>
+                        <label>Alamat Domisili <span class="text-danger">*</span></label>
+                        <textarea name="alamat" placeholder="Masukkan Alamat Tinggal Saat Ini" rows="5" class="form-control"></textarea>
                     </div>
                     <div class="form-group">
-                        <label>Nomor Telepon <span class="text-danger">*</span></label>
-                        <input type="text" name="nomor_telepon" autocomplete="off" class="form-control" placeholder="Masukkan Nomor Telepon">
+                        <label>Nomor HP <span class="text-danger">*</span></label>
+                        <input type="text" name="nomor_telepon" autocomplete="off" class="form-control" placeholder="Masukkan Nomor Whatsapp Aktif">
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label>Alamat Orang Tua <span class="text-danger">*</span></label>
-                        <textarea name="alamat_orang_tua" rows="5" class="form-control" placeholder="Masukkan Alamat Orang Tua"></textarea>
+                        <label>Nomor HP Orang Dekat <span class="text-danger">*</span></label>
+                        <input type="text" name="nomor_telepon_orang_dekat" autocomplete="off" class="form-control" placeholder="Masukkan Nomor HP Orang Dekat">
                     </div>
                     <div class="form-group">
-                        <label>Nomor Telepon Orang Tua <span class="text-danger">*</span></label>
-                        <input type="text" name="nomor_telepon_orang_tua" autocomplete="off" class="form-control" placeholder="Masukkan Nomor Telepon Orang Tua">
-                    </div>
-                    <div class="form-group">
-                        <label>Nomor Telepon Orang Dekat <span class="text-danger">*</span></label>
-                        <input type="text" name="nomor_telepon_orang_dekat" autocomplete="off" class="form-control" placeholder="Masukkan Nomor Telepon Orang Dekat">
-                    </div>
-                    <div class="form-group">
-                        <label>IPK <span class="text-danger">*</span></label>
-                        <input type="text" name="ipk" autocomplete="off" class="form-control" placeholder="Masukkan IPK">
+                        <label>Indeks Prestasi Kumulatif <span class="text-danger">*</span></label>
+                        <input type="text" name="ipk" autocomplete="off" class="form-control" placeholder="Masukkan IPK Terakhir">
                     </div>
                     <div class="form-group">
                         <label>Password <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control" name="password" autocomplete="off" placeholder="Masukkan Password">
+                        <input type="text" class="form-control" name="password" autocomplete="off" placeholder="Masukkan Password (Mohon Diingat Baik)">
                     </div>
                     <div class="form-group">
                         <label>Password (Konfirmasi) <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control" name="password_konfirmasi" autocomplete="off" placeholder="Masukkan Password (Konfirmasi)">
+                        <input type="text" class="form-control" name="password_konfirmasi" autocomplete="off" placeholder="Masukkan Password Sama dengan Di Atas">
                     </div>
                     <div class="form-group">
-                        <label>Foto Mahasiswa</label>
+                        <label>Foto Mahasiswa (JPG Maks. 1 MB)</label>
                         <div class="custom-file pilih-foto">
                             <input type="file" accept="image/*" class="custom-file-input">
                             <label class="custom-file-label"></label>
@@ -119,20 +111,36 @@
 
     $(document).ready(function() {
         $("#nim").keyup(function() {
-            if ($(this).val().length == 9) {
-                var inp = $(this).val();
-                if (/[a-zA-Z_ ]/.test(inp) && /[0-9-_ ]/.test(inp)) {
-                    $(".btn-act").attr('disabled', false)
-                } else {
-                    notif('Mohon masukkan dengan format yang benar, harus ada angka dan huruf', 'error', true);
-                    $(".btn-act").attr('disabled', true)
-                }
-            } else {
-                notif('Silahkan Masukkan 9 digit', 'info', true);
-                $(".btn-act").attr('disabled', true)
-            }
-        })
+            var nim_input = $(this).val();
 
+            // Cek apakah input hanya berisi angka (atau kosong)
+             if (/^\d*$/.test(nim_input)) {
+
+                 // Cek apakah panjangnya antara 7 dan 10 digit
+                  if (nim_input.length >= 7 && nim_input.length <= 10) {
+                     $(".btn-act").attr('disabled', false);
+                 } else {
+                    // Jika panjangnya di luar rentang (tapi tidak kosong), tampilkan notifikasi
+                    if (nim_input.length > 0) {
+                    notif('NIM harus terdiri dari 7 hingga 10 digit angka', 'info', true);
+                }
+                $(".btn-act").attr('disabled', true);
+             }
+
+         } else {
+            // Jika input berisi selain angka, tampilkan notifikasi error
+            notif('NIM hanya boleh berisi angka', 'error', true);
+            $(".btn-act").attr('disabled', true);
+        }
+    });
+        
+            // KODE BARU UNTUK DATEPICKER
+            $('#tanggal_lahir').datepicker({
+                format: "dd/mm/yyyy",
+                autoclose: true,
+                todayHighlight: true
+    });
+        
         call('api/prodi').done(function(req) {
             prodi = '<option value="">- Pilih Prodi -</option>';
             if (req.data) {
@@ -163,19 +171,42 @@
             }
         })
 
-        $(document).on('change', '.pilih-foto [type=file]', function(e) {
-            canvasResize(this.files[0], {
+                $(document).on('change', '.pilih-foto [type=file]', function(e) {
+            const file = this.files[0];
+            const self = this;
+        
+            if (!file) {
+                return;
+            }
+        
+            // Validasi Tipe File (hanya jpg/jpeg)
+            if (file.type !== 'image/jpeg' && file.type !== 'image/jpg') {
+                notif('Tipe file harus JPG atau JPEG', 'error', true);
+                $(self).val(null);
+                return;
+            }
+        
+            // Validasi Ukuran File (maksimal 1MB)
+            const maxSizeInBytes = 1024 * 1024; // 1MB
+            if (file.size > maxSizeInBytes) {
+                notif('Ukuran file tidak boleh melebihi 1 MB', 'error', true);
+                $(self).val(null);
+                return;
+            }
+        
+            // Jika lolos, langsung proses dan potong gambar menjadi 500x500
+            canvasResize(file, {
                 height: 500,
                 width: 500,
-                crop: true,
+                crop: true, // Opsi ini akan memotong gambar menjadi persegi
                 rotate: 0,
                 quality: 200,
                 callback: function(data) {
                     $('img.foto').attr('src', data);
                     $('[name=foto]').val(data);
                 }
-            })
-        })
+            });
+        });
 
     })
 </script>

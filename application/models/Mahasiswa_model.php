@@ -22,86 +22,102 @@ class Mahasiswa_model extends CI_Model
         $hasil['message'] = ($mahasiswa) ? "data berhasil ditemukan" : "data tidak tersedia";
         $hasil['data'] = $mahasiswa;
 
-        foreach ($mahasiswa as $key => $item) {
-            $prodi = $this->db->get_where('prodi', ['prodi.id' => $item['prodi_id']])->row_array();
+    foreach ($mahasiswa as $key => $item) {
+        $prodi = $this->db->get_where('prodi', ['prodi.id' => $item['prodi_id']])->row_array();
+        if ($prodi) {
             $prodi['fakultas'] = $this->db->get_where('fakultas', ['fakultas.id' => $prodi['fakultas_id']])->row_array();
-            $hasil['data'][$key]['prodi'] = $prodi;
-            $x =  $this->db->get_where('proposal_mahasiswa', ['proposal_mahasiswa.mahasiswa_id' => $item['id']]);
-            $hasil['data'][$key]['usulan_proposal'] = $x->num_rows();
-            foreach ($x->result_array() as $k => $value) {
-                $hasil['data'][$key]['seminar_proposal'] += $this->db->get_where('seminar', ['seminar.proposal_mahasiswa_id' => $value['id']])->num_rows();
-                $hasil['data'][$key]['hasil_penelitian'] += $this->db->get_where('penelitian', ['penelitian.proposal_mahasiswa_id' => $value['id']])->num_rows();
-            }
-            $hasil['data'][$key]['hk3'] = $this->db->get_where('hasil_kegiatan', ['hasil_kegiatan.mahasiswa_id' => $item['id']])->num_rows();
-            $hasil['data'][$key]['skripsi'] = $this->db->get_where('skripsi', ['skripsi.mahasiswa_id' => $item['id']])->num_rows();
-
         }
+        $hasil['data'][$key]['prodi'] = $prodi;
+    
+        // Inisialisasi variabel dengan nilai 0
+        $hasil['data'][$key]['seminar_proposal'] = 0;
+        $hasil['data'][$key]['hasil_penelitian'] = 0;
+    
+        $x =  $this->db->get_where('proposal_mahasiswa', ['proposal_mahasiswa.mahasiswa_id' => $item['id']]);
+        $hasil['data'][$key]['usulan_proposal'] = $x->num_rows();
+    
+        foreach ($x->result_array() as $k => $value) {
+            $hasil['data'][$key]['seminar_proposal'] += $this->db->get_where('seminar', ['seminar.proposal_mahasiswa_id' => $value['id']])->num_rows();
+            $hasil['data'][$key]['hasil_penelitian'] += $this->db->get_where('penelitian', ['penelitian.proposal_mahasiswa_id' => $value['id']])->num_rows();
+        }
+    
+        $hasil['data'][$key]['hk3'] = $this->db->get_where('hasil_kegiatan', ['hasil_kegiatan.mahasiswa_id' => $item['id']])->num_rows();
+        $hasil['data'][$key]['skripsi'] = $this->db->get_where('skripsi', ['skripsi.mahasiswa_id' => $item['id']])->num_rows();
+    }
 
         return $hasil;
     }
 
     public function create($input)
     {
-        $data = [
-            'nim' => $input['nim'],
-            'nama' => $input['nama'],
-            'prodi_id' => $input['prodi_id'],
-            'jenis_kelamin' => $input['jenis_kelamin'],
-            'tempat_lahir' => $input['tempat_lahir'],
-            'tanggal_lahir' => $input['tanggal_lahir'],
-            'email' => $input['email'],
-            'alamat_orang_tua' => $input['alamat_orang_tua'],
-            'nomor_telepon_orang_tua' => $input['nomor_telepon_orang_tua'],
-            'alamat' => $input['alamat'],
-            'nomor_telepon' => $input['nomor_telepon'],
-            'nomor_telepon_orang_dekat' => $input['nomor_telepon_orang_dekat'],
-            'ipk' => $input['ipk'],
-            'password' => $input['password'] ? password_hash($input['password'], PASSWORD_DEFAULT) : ''
-        ];
+    // 1. Validasi konfirmasi password
+    if ($input['password'] != $input['password_konfirmasi']) {
+        return ['error' => true, 'message' => 'Konfirmasi password tidak cocok'];
+    }
 
-        $validate = $this->app->validate($data);
+    // 2. Siapkan data untuk dimasukkan ke database
+    $data = [
+        'nim' => $input['nim'],
+        'nama' => $input['nama'],
+        'prodi_id' => $input['prodi_id'],
+        'jenis_kelamin' => $input['jenis_kelamin'],
+        'tempat_lahir' => $input['tempat_lahir'],
+        'tanggal_lahir' => $input['tanggal_lahir'],
+        'email' => $input['email'],
+        'alamat' => $input['alamat'],
+        'nomor_telepon' => $input['nomor_telepon'],
+        'nomor_telepon_orang_dekat' => $input['nomor_telepon_orang_dekat'],
+        'ipk' => $input['ipk'],
+        'password' => $input['password'] ? password_hash($input['password'], PASSWORD_DEFAULT) : '',
+        'status' => '1'  // <-- PERUBAHAN: Langsung set status menjadi aktif
+    ];
 
+    $validate = $this->app->validate($data);
+    
         if ($validate === true) {
-            $cek = $this->db->get_where($this->table, ['mahasiswa.nim' => $data['nim']])->num_rows();
-            if ($cek > 0) {
-                $hasil = [
-                    'error' => true,
-                    'message' => "nim sudah digunakan"
-                ];
-            } else {
-                if ($input['foto']) {
-                    $foto = explode(';base64,', $input['foto'])[1];
-                    $foto_nama = date('Ymdhis') . '.png';
-                    file_put_contents(FCPATH . 'cdn/img/mahasiswa/' . $foto_nama, base64_decode($foto));
-                    $data['foto'] = $foto_nama;
-                }
-
-                if ($this->db->insert($this->table, $data)) {
-
-                    $isi_email = '
-                    <p>Anda telah berhasil mendaftar, harap bersabar sampai akun anda diverifikasi oleh admin kami.</p>
-                    <b>Data untuk login: </b>
-                    <ul>
-                        <li>NIM &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : ' . $data['nim'] . '</li>
-                        <li>Password &nbsp;&nbsp;&nbsp; : ' . $input['password'] . ' </li>
-                    </ul>
-                    ';
-
-                    $data_id = $this->db->insert_id();
-
-                    $hasil = [
-                        'error' => false,
-                        'message' => "data berhasil disimpan",
-                        'email_message' => $this->emailm->send('Berhasil Mendaftar', $data['email'], $isi_email),
-                        'data_id' => $data_id
-                    ];
-                }
-            }
+        $cek = $this->db->get_where($this->table, ['mahasiswa.nim' => $data['nim']])->num_rows();
+        if ($cek > 0) {
+            $hasil = [
+                'error' => true,
+                'message' => "NIM sudah digunakan"
+            ];
         } else {
-            $hasil = $validate;
-        }
+            if ($input['foto']) {
+                $foto = explode(';base64,', $input['foto'])[1];
+                $foto_nama = date('Ymdhis') . '.png';
+                file_put_contents(FCPATH . 'cdn/img/mahasiswa/' . $foto_nama, base64_decode($foto));
+                $data['foto'] = $foto_nama;
+            }
 
-        return $hasil;
+            if ($this->db->insert($this->table, $data)) {
+
+                // <-- PERUBAHAN: Isi email notifikasi diubah
+                $isi_email = '
+                <p>Halo ' . $data['nama'] . ',</p>
+                <p>Pendaftaran Anda di Sistem Informasi Manajemen Tugas Akhir STK St. Yakobus Merauke telah berhasil. Akun Anda sudah aktif dan bisa langsung digunakan untuk login.</p>
+                <p>Gunakan kredensial berikut untuk login:</p>
+                <ul>
+                    <li><b>Username/NIM:</b> ' . $data['nim'] . '</li>
+                    <li><b>Password:</b> ' . $input['password'] . '</li>
+                </ul>
+                <p>Terima kasih.</p>
+                ';
+
+                $data_id = $this->db->insert_id();
+
+                $hasil = [
+                    'error' => false,
+                    'message' => "Registrasi berhasil! Akun Anda sudah aktif.",
+                    'email_message' => $this->emailm->send('Registrasi SIM Tugas Akhir Berhasil', $data['email'], $isi_email),
+                    'data_id' => $data_id
+                ];
+            }
+        }
+    } else {
+        $hasil = $validate;
+    }
+
+    return $hasil;
     }
 
     public function update($input, $id)
@@ -114,8 +130,6 @@ class Mahasiswa_model extends CI_Model
             'tempat_lahir' => $input['tempat_lahir'],
             'tanggal_lahir' => $input['tanggal_lahir'],
             'email' => $input['email'],
-            'alamat_orang_tua' => $input['alamat_orang_tua'],
-            'nomor_telepon_orang_tua' => $input['nomor_telepon_orang_tua'],
             'alamat' => $input['alamat'],
             'nomor_telepon' => $input['nomor_telepon'],
             'nomor_telepon_orang_dekat' => $input['nomor_telepon_orang_dekat'],

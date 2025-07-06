@@ -40,3 +40,12 @@
         height: 640px;
     }
 }
+
+/* BENAR: .foto-profil aktif di semua ukuran layar */
+.foto-profil {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}

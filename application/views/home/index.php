@@ -46,18 +46,21 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav mr-auto w-100 justify-content-end">
                         <li class="nav-item mt-1">
-                            <a class="nav-link page-scroll" href="#slider-area">Home</a>
+                             <a class="nav-link page-scroll" href="#slider-area">Home</a>
                         </li>
                         <li class="nav-item mt-1">
-                            <a class="nav-link page-scroll" href="#tentang_kami">Tentang Kami</a>
+                             <a class="nav-link page-scroll" href="#tentang_kami">Tentang Kami</a>
                         </li>
                         <li class="nav-item mt-1">
                             <a class="nav-link page-scroll" href="#contact">Kontak</a>
                         </li>
-                        <li class="nav-item ml-3">
-                            <center>
-                                <a class="btn btn-primary" href="<?= base_url(); ?>home/registrasi">Mulai</a>
-                            </center>
+
+                        <li class="nav-item ml-3 text-center">
+                            <a class="btn btn-primary" href="<?= base_url('home/registrasi'); ?>">Registrasi</a>
+                        </li>
+
+                        <li class="nav-item ml-2 text-center">
+                            <a class="btn btn-primary" href="<?= base_url('auth/login'); ?>">LOGIN</a>
                         </li>
                     </ul>
                 </div>
@@ -77,7 +80,7 @@
                         <div class="overlay"></div>
                         <img src="<?= base_url('assets/essence/img/slider/') . $carousel_bg1; ?>" alt="img">
                         <div class="carousel-caption text-left">
-                            <h3 class="wow fadeInRight" data-wow-delay="0.2s"><?= $carousel_subtitle1; ?></h1>
+                            <h3 class="wow fadeInRight" data-wow-delay="0.2s"><?= $carousel_subtitle1; ?></h3>
                                 <h2 class="wow fadeInRight" data-wow-delay="0.4s"><?= $carousel_title1; ?></h2>
                                 <h4 class="wow fadeInRight" data-wow-delay="0.6s"><?= $carousel_description1; ?></h4>
                                 <a href="<?= $carousel_btn_href1; ?>" class="btn btn-lg btn-common btn-effect wow fadeInRight" data-wow-delay="0.9s"><?= $carousel_btn_text1; ?></a>

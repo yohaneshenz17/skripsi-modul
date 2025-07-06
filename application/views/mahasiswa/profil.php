@@ -96,7 +96,7 @@
                         <div class="form-group">
                             <div class="card shadow p-3 text-center" style="height: 300px">
                                 <input type="hidden" name="foto">
-                                <img src="<?= base_url() ?>cdn/img/mahasiswa/default.png" class="foto foto-fluid">
+                                <img src="<?= base_url() ?>cdn/img/mahasiswa/default.png" class="foto foto-profil">
                             </div>
                         </div>
                     </div>

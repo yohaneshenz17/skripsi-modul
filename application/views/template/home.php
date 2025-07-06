@@ -8,6 +8,7 @@
   <meta name="author" content="Creative Tim">
   <title><?= $app['nama'] ?> - <?= $title ?></title>
   <?php include('_main/css.php') ?>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
 </head>
 
 <body class="bg-default">
@@ -112,6 +113,7 @@
   </footer> -->
   <!-- Argon Scripts -->
   <?php include('_main/js.php') ?>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
   <?= $script ?>
 </body>
 
